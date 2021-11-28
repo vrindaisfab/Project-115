@@ -1,0 +1,30 @@
+h3 {
+
+    font-size: 25px !important;
+}
+
+.btn-success:hover {
+
+    background-color:#e637ba;
+}
+
+
+canvas {
+    outline: 10px black;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes example {
+from{box-shadow:  5px 5px 150px #e84147;}
+to{box-shadow:  5px 5px 38px #00ffea;}
+}
+
+#imagelol {
+
+    width: 250;
+    height: 250;
+}
